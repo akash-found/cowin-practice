@@ -1,0 +1,19 @@
+.Rural-Urban-container {
+  background-color: white;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: start;
+  font-family: Roboto, sans-serif;
+  border-radius: 5px;
+  padding: 15px;
+}
+.Rural-Urban-container_chart {
+  width: 100%;
+  box-sizing: border-box;
+}
+.Rural-Urban-container_heading {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}

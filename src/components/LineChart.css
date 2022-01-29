@@ -1,0 +1,45 @@
+.linechart_navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.Linechart_container {
+  font-family: Roboto, sans-serif;
+  text-align: start;
+  box-sizing: border-box;
+  background-color: #ffff;
+  width: 98vw;
+  margin: auto;
+  border-style: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  overflow-x: auto;
+  padding: 15px;
+}
+button {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.line-container {
+  min-width: 600px;
+}
+.Linechart_trends {
+  display: flex;
+  margin-bottom: 30px;
+}
+button {
+  border-style: none;
+  background-color: inherit;
+}
+button:hover {
+  background-color: inherit;
+  opacity: 1;
+}
+.linechart-navigation-selected {
+  border-bottom: solid;
+  opacity: 1;
+}
+.linechart-navigation-not-selected {
+  opacity: 0.4;
+}

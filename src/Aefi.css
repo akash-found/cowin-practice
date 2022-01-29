@@ -1,0 +1,19 @@
+.aefi-container {
+  background-color: white;
+  width: 50%;
+  margin-right: 15px;
+  padding: 15px;
+  text-align: start;
+  font-family: Roboto, sans-serif;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.aefi-container_chart {
+  width: 100%;
+  box-sizing: border-box;
+}
+.aefi-container_heading {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
